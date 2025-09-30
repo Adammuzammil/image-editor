@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { Sparkles, ImageIcon, Zap, Target } from "lucide-react";
 import Link from "next/link";
-import { Providers } from "../components/providers";
+import { Providers } from "../../components/providers";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
   return (
